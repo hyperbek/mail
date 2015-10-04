@@ -44,7 +44,6 @@
 			margin:0;
 			padding:0;
 			width:100% !important;
-			background:url('https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/26aa1bd0-827b-4e2b-b8da-13013beb3efe.png') repeat 195px 0;
 		}
 		body,.backgroundTable{
 			background-color:#FAFAFA;
@@ -88,9 +87,7 @@
 			margin-bottom:8px;
 		}
 		#templatePreheader{
-			padding:20px 10px 0;
-			border-radius:15px 15px 0 0;
-			background:#2977AF url("https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/cc042598-b485-4569-8930-8daa8e17b843.png") 10px 10px no-repeat;
+			background:#2977AF;
 		}
 		.preheaderContent div{
 			color:#ada197;
@@ -106,15 +103,6 @@
 		.preheaderContent div img{
 			height:auto;
 			max-width:600px;
-		}
-		.preheader_logo{
-			margin:9px 0 0 20px;
-			width:149px;
-			height:50px;
-		}
-		.std_preheader_links{
-			padding:15px 20px 0;
-			line-height:20px !important;
 		}
 		.preheaderContent1,.preheaderContent2{
 			padding-bottom:20px;
@@ -143,7 +131,7 @@
 		}
 		.bodyContent{
 			padding:5px 10px 15px;
-			background:#fff url("https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/e7c1e827-d9bc-4af1-a933-e56423cb8389.png") no-repeat 0 bottom;
+			background:#fff;
 		}
 		.bodyContent div{
 			text-align:left;
@@ -158,7 +146,7 @@
 			margin-bottom:10px;
 		}
 		.postBanner{
-			background:#2977af url("https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/33cd3047-9659-4905-bc0b-bee001dab45d.png") no-repeat 10px bottom;
+			background:#2977af;
 		}
 		#templateBanner{
 			text-align:center;
@@ -171,7 +159,7 @@
 			padding-bottom:15px;
 		}
 		.bannerList{
-			padding:0px 10px 10px;
+			padding:0px 10px 0px;
 		}
 		.bannerListItem{
 			width:160px;
@@ -193,9 +181,8 @@
 			text-decoration:none;
 		}
 		.bottomContent{
-			padding:0px 10px 20px;
+			padding:0px 0px 0;
 			font-family:"Segoe UI", Arial;
-			background:url("https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/61941849-8f83-4895-bc67-90af264d0e06.png") 10px bottom no-repeat;
 			color:#414141;
 			font-size:16px;
 		}
@@ -219,102 +206,152 @@
 </style></head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
     	<center>
-        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable" b>
             	<tr>
                 	<td class="topSpace"></td>
                 </tr>
                 <tr>
                 	<td align="center" valign="top" id="backgroundTop">
-                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templatePreheader">
-                            <tr>
-                                <td valign="top" class="preheaderContent">
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background:#fff;">
-                                    	<tr>
-                                        	<td valign="top" class="preheaderContent1">
-                                            	<div mc:edit="std_preheader_content"><div class="preheader_logo"><br>
-<br>
-<a href="http://www.profintel.ru/"><img alt="Добрый день! Используйте возможность подключить все необходимые для бизнеса телеком-услуги у одного оператора, это гораздо удобнее и выгоднее, чем работа с несколькими подрядчиками." src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/dbb023d3-67d2-47e8-b771-aca97fcabc9a.png"></a></div>
-</div>
-                                            </td>
-                                            <td valign="top" width="350" class="preheaderContent2">
-                                            	<div class="std_preheader_links" mc:edit="std_content01"><div dir="ltr" style="text-align: right;">
-<div style="text-align: right;">Звоните:</div>
+                    <table  border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" id="UpperImage">
+                                <tr>
+                                  <td>
+                                      <img src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/cbec5da6-8d2f-4e87-b40e-f4427e18a0dc.png" height="20" width="600" style="display: block"/>
+                                  </td>
+                                </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      <tr>
+                          <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="600" id="templatePreheader">
+                                <tr>
+                                    <td width="10" bgcolor="#2977af"></td>
+                                    <td valign="top" class="preheaderContent">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background:#fff;">
+                                        	<tr>
+                                            	<td valign="top" class="preheaderContent1">
+                                                	<div mc:edit="std_preheader_content"><div style="margin:9px 0 0 20px; width:149px; height:50px;"><br>
+    <br>
+    <a href="http://www.profintel.ru/"><img alt="Добрый день! Используйте возможность подключить все необходимые для бизнеса телеком-услуги у одного оператора, это гораздо удобнее и выгоднее, чем работа с несколькими подрядчиками." src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/dbb023d3-67d2-47e8-b771-aca97fcabc9a.png"></a></div>
+    </div>
+                                                </td>
+                                                <td valign="top" width="350" class="preheaderContent2">
+                                                	<div style="padding-top:15px; line-height:20px !important;" mc:edit="std_content01"><div dir="ltr" style="text-align: right;">
+    <div style="text-align: right;">Звоните:</div>
 
-<div style="text-align: right;">Екатеринбург <span style="text-align:right">+7 (343) 278-60-06</span><br>
-Нижний Тагил +7 (3435) 499-301<br>
-Каменск-Уральский +7 (3439) 33-98-00<br>
-<span style="text-align:right">Первоуральск +7 (3439) 64-65-65</span></div>
+    <div style="text-align: right;">Екатеринбург <span style="text-align:right">+7 (343) 278-60-06</span><br>
+    Нижний Тагил +7 (3435) 499-301<br>
+    Каменск-Уральский +7 (3439) 33-98-00<br>
+    <span style="text-align:right">Первоуральск +7 (3439) 64-65-65</span></div>
 
-<div style="text-align: right;">или пишите нам на:&nbsp;<a href="http://mailto=info@profintel.ru" target="_blank">info@profintel.ru</a><br>
-<br>
-<a href="https://vk.com/insys1999" target="_blank"><img align="none" height="30" src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/dff7e690-8f7c-4ae1-a084-3b747c17541b.jpeg" style="width: 30px; height: 30px; margin: 0px;" width="30"></a>&nbsp;<a href="https://www.facebook.com/insys.ru" target="_blank"><img align="none" height="30" src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/c8ffcbec-146e-49a6-b863-283ae58cf37e.png" style="width: 30px; height: 30px; margin: 0px;" width="30"></a><br>
-&nbsp;</div>
-</div>
-</div></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
+    <div style="text-align: right;">или пишите нам на:&nbsp;<a href="http://mailto=info@profintel.ru" target="_blank">info@profintel.ru</a><br>
+    <br>
+    <a href="https://vk.com/insys1999" target="_blank"><img align="none" height="30" src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/dff7e690-8f7c-4ae1-a084-3b747c17541b.jpeg" style="width: 30px; height: 30px; margin: 0px;" width="30"></a>&nbsp;<a href="https://www.facebook.com/insys.ru" target="_blank"><img align="none" height="30" src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/c8ffcbec-146e-49a6-b863-283ae58cf37e.png" style="width: 30px; height: 30px; margin: 0px;" width="30"></a><br>
+    &nbsp;</div>
+    </div>
+    </div></td>
+    <td aling="right" width="20">
+    </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="10" bgcolor="#2977af"></td>
+                                </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                          	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                              	<tr>
+                                  	<td align="center" valign="top" width="580" bgcolor="#2977af">
+                                      	<table border="0" cellpadding="0" cellspacing="0" id="templateBody">
+                                          	<tr>
+                                                  <td valign="top" align="center" class="bodyContent" bgcolor="#fff" width="580">
+                                                      <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                                          <tr align="center">
+                                                              <td valign="top" align="center" width="560">
+                                                                  <div mc:edit="std_content00"><span class="h3"><span class="h1"><span class="headerContent"><span style="font-size:20px"><strong>Несколько простых и полезных советов</strong></span></span></span></span>
+      <div style="text-align: justify;">Инсис напоминает!&nbsp;Для того, чтобы не остаться без связи, по состоянию&nbsp;на 1 число каждого месяца на вашем счете должен быть баланс, достаточный для списания абонентской платы&nbsp;по тарифному плану.&nbsp;Не менее&nbsp;важно оплачивать услуги верными &nbsp;и безопасными способами!&nbsp;<br>
+      Как это сделать? Читайте дальше!&nbsp;</div>
+      </div>
+      														</td>
+                                                          </tr>
+                                                      </table>
+                                                  </td>
+                                              </tr>
+                                          </table>
+                                          <table border="0" cellpadding="0" cellspacing="0" width="600">
+                                              <tr>
+                                                <td align="center" height="11" width="600" bgcolor="#2977af">
+                                                  <img src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/e7c1e827-d9bc-4af1-a933-e56423cb8389.png" width="580" height="11" style="display: block"/>
+                                                </td>
+                                              </tr>
+                                          </table>
+                                      </td>
+                                  </tr>
+                              	<tr class="postBanner">
+                                  	<td align="center" valign="top" height="325" class="bannerList" mc:edit="std_content02" bgcolor="#2977af"><img align="none" height="325" src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/70af3659-8628-4b7a-9642-5f81ea8cd797.jpg" style="display: block; width: 560px; height: 325px; margin: 0px;" width="560"></td>
+                                  </tr>
+                                <tr>
+                                    <td align="center" bgcolor="#2977af">
+                                        <img src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/33cd3047-9659-4905-bc0b-bee001dab45d.png" width="580" height="10" style="display: block;"/>
+                                      </td>
+                                  </tr>
+                              	<tr>
+                                  	<td align="center" valign="top" class="bottomContent" mc:edit="std_content04"><table border="0" cellpadding="0" cellspacing="0" class="bottomWhiteBlock">
+      	<tbody>
+      		<tr>
+            <td width="10" bgcolor="#2977af"></td>
+      			<td class="bottomCTA" width="580">
+      			<p style="text-align: center;">Мы рекомендуем оплачивать услуги наиболее удобными и безопасными способами, в любое время - днём и ночью:&nbsp;</p>
+
+      			<ul>
+      				<li style="text-align: left;">банковской картой прямо с <a href="http://www.profintel.ru/dlja_doma/sposoby_oplaty/" target="_blank">нашего сайта</a> или вашей <a href="https://stat.profintel.ru/" target="_blank">персональной страницы статистики</a>.&nbsp;Вам нужно всего лишь ввести свой ID, нужную сумму и заполнить простые банковские реквизиты. При оплате указанным способом, платеж защищен специальной системой <a href="http://www.uniteller.ru/" target="_blank">Uniteller</a>, что делает процесс оплаты&nbsp;максимально безопасным!</li>
+      				<li style="text-align: left;">в терминалах&nbsp;и кассах&nbsp;офисов&nbsp;Сбербанка России, которые можно встретить&nbsp;буквально на каждом шагу! А ещё в офисах Сбербанка вежливые консультанты с радостью помогут вам верно оформить платеж</li>
+      				<li style="text-align: left;">с помощью интернет-банка или мобильного банка&nbsp;Сбербанка России. <a href="http://www.profintel.ru/dlja_doma/sposoby_oplaty/oplata_cherez_sberbank_onlajn/" target="_blank">Всё просто!</a> Войдите в ваш личный кабинет, найдите в разделе &quot;Интернет&quot; Инсис, оформите платеж и подтвердите его с помощью кода, который будет выслан по смс. Функция &quot;Автоплатеж&quot; и вовсе избавит вас от необходимости запоминать дату и сумму платежа!</li>
+      			</ul>
+
+      			<div style="text-align: center;">Зачем следовать нашим советам? Чтобы ваш платеж поступил вовремя и без дополнительных комиссий!&nbsp;<br>
+      			<br>
+      			<br>
+      			Остались вопросы? <strong>Звоните нам:</strong></div>
+
+      			<p style="text-align: center;">Екатеринбург&nbsp;+7 (343) 278-60-06<br>
+      			Нижний Тагил +7 (3435) 499-301<br>
+      			Каменск-Уральский +7 (3439) 33-98-00<br>
+      			Первоуральск +7 (3439) 64-65-65</p>
+      			</td>
+            <td width="10" bgcolor="#2977af"></td>
+      		</tr>
+      	</tbody>
+      </table>
+      </td>
+                                  </tr>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <table border="0" cellpadding="0" cellspacing="0" width="600">
+                                <tr>
+                                    <td>
+                                        <img src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/38abe92e-3ddc-4bf2-a5d7-7033e3dcf46d.png" width="600" height="20" style="display: block"/>
+                                      </td>
+                                  </tr>
+                              </table>
+                            </td>
+                          </tr>
                         </table>
-                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
-                        	<tr>
-                            	<td align="center" valign="top">
-                                	<table border="0" cellpadding="0" cellspacing="0" width="580" id="templateBody">
-                                    	<tr>
-                                            <td valign="top" class="bodyContent">
-                                                <table border="0" cellpadding="10" cellspacing="0" width="100%">
-                                                    <tr>
-                                                        <td valign="top">
-                                                            <div mc:edit="std_content00"><span class="h3"><span class="h1"><span class="headerContent"><span style="font-size:20px"><strong>Несколько простых и полезных советов</strong></span></span></span></span>
-<div style="text-align: justify;">Инсис напоминает!&nbsp;Для того, чтобы не остаться без связи, по состоянию&nbsp;на 1 число каждого месяца на вашем счете должен быть баланс, достаточный для списания абонентской платы&nbsp;по тарифному плану.&nbsp;Не менее&nbsp;важно оплачивать услуги верными &nbsp;и безопасными способами!&nbsp;<br>
-Как это сделать? Читайте дальше!&nbsp;</div>
-</div>
-														</td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        	<tr class="postBanner">
-                            	<td align="center" valign="top" class="bannerList" mc:edit="std_content02"><img align="none" height="325" src="https://gallery.mailchimp.com/2eb2ebe9f2e6ef3a38cd41aad/images/70af3659-8628-4b7a-9642-5f81ea8cd797.jpg" style="width: 560px; height: 325px; margin: 0px;" width="560"></td>
-                            </tr>
-                        	<tr>
-                            	<td align="center" valign="top" class="bottomContent" mc:edit="std_content04"><table border="0" cellpadding="0" cellspacing="0" class="bottomWhiteBlock">
-	<tbody>
-		<tr>
-			<td class="bottomCTA">
-			<p style="text-align: center;">Мы рекомендуем оплачивать услуги наиболее удобными и безопасными способами, в любое время - днём и ночью:&nbsp;</p>
-
-			<ul>
-				<li style="text-align: left;">банковской картой прямо с <a href="http://www.profintel.ru/dlja_doma/sposoby_oplaty/" target="_blank">нашего сайта</a> или вашей <a href="https://stat.profintel.ru/" target="_blank">персональной страницы статистики</a>.&nbsp;Вам нужно всего лишь ввести свой ID, нужную сумму и заполнить простые банковские реквизиты. При оплате указанным способом, платеж защищен специальной системой <a href="http://www.uniteller.ru/" target="_blank">Uniteller</a>, что делает процесс оплаты&nbsp;максимально безопасным!</li>
-				<li style="text-align: left;">в терминалах&nbsp;и кассах&nbsp;офисов&nbsp;Сбербанка России, которые можно встретить&nbsp;буквально на каждом шагу! А ещё в офисах Сбербанка вежливые консультанты с радостью помогут вам верно оформить платеж</li>
-				<li style="text-align: left;">с помощью интернет-банка или мобильного банка&nbsp;Сбербанка России. <a href="http://www.profintel.ru/dlja_doma/sposoby_oplaty/oplata_cherez_sberbank_onlajn/" target="_blank">Всё просто!</a> Войдите в ваш личный кабинет, найдите в разделе &quot;Интернет&quot; Инсис, оформите платеж и подтвердите его с помощью кода, который будет выслан по смс. Функция &quot;Автоплатеж&quot; и вовсе избавит вас от необходимости запоминать дату и сумму платежа!</li>
-			</ul>
-
-			<div style="text-align: center;">Зачем следовать нашим советам? Чтобы ваш платеж поступил вовремя и без дополнительных комиссий!&nbsp;<br>
-			<br>
-			<br>
-			Остались вопросы? <strong>Звоните нам:</strong></div>
-
-			<p style="text-align: center;">Екатеринбург&nbsp;+7 (343) 278-60-06<br>
-			Нижний Тагил +7 (3435) 499-301<br>
-			Каменск-Уральский +7 (3439) 33-98-00<br>
-			Первоуральск +7 (3439) 64-65-65</p>
-			</td>
-		</tr>
-	</tbody>
-</table>
-</td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                	<td class="bottomSpace"></td>
-                </tr>
-            </table>
+                      </td>
+                  </tr>
+                  <tr>
+                  	<td class="bottomSpace"></td>
+                  </tr>
+              </table>
         </center>
     </body>
 </html>
